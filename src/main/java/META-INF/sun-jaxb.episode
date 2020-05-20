@@ -1,0 +1,370 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<bindings xmlns="http://java.sun.com/xml/ns/jaxb" if-exists="true" version="2.1">
+  <!--
+
+Este archivo ha sido generado por la arquitectura JavaTM para la implantación de la referencia de enlace (JAXB) XML v2.2.11 
+Visite <a href="http://java.sun.com/xml/jaxb">http://java.sun.com/xml/jaxb</a> 
+Todas las modificaciones realizadas en este archivo se perderán si se vuelve a compilar el esquema de origen. 
+Generado el: 2020.05.20 a las 11:35:49 AM COT 
+
+  -->
+  <bindings xmlns:tns="http://ws.checkout.credibanco.pharos.com/" if-exists="true" scd="x-schema::tns">
+    <schemaBindings map="false">
+      <package name="com.sebas.webservicecbco.checkout"/>
+    </schemaBindings>
+    <bindings if-exists="true" scd="~tns:activateCard">
+      <class ref="com.sebas.webservicecbco.checkout.ActivateCard"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:activateCardResponse">
+      <class ref="com.sebas.webservicecbco.checkout.ActivateCardResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:activateSession">
+      <class ref="com.sebas.webservicecbco.checkout.ActivateSession"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:activateSessionResponse">
+      <class ref="com.sebas.webservicecbco.checkout.ActivateSessionResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:activateuser">
+      <class ref="com.sebas.webservicecbco.checkout.Activateuser"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:activateuserResponse">
+      <class ref="com.sebas.webservicecbco.checkout.ActivateuserResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:addAudit">
+      <class ref="com.sebas.webservicecbco.checkout.AddAudit"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:addAuditResponse">
+      <class ref="com.sebas.webservicecbco.checkout.AddAuditResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:addCard">
+      <class ref="com.sebas.webservicecbco.checkout.AddCard"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:addCardResponse">
+      <class ref="com.sebas.webservicecbco.checkout.AddCardResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:addFirstCard">
+      <class ref="com.sebas.webservicecbco.checkout.AddFirstCard"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:addFirstCardResponse">
+      <class ref="com.sebas.webservicecbco.checkout.AddFirstCardResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:authenticateUser">
+      <class ref="com.sebas.webservicecbco.checkout.AuthenticateUser"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:authenticateUserResponse">
+      <class ref="com.sebas.webservicecbco.checkout.AuthenticateUserResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:changePassword">
+      <class ref="com.sebas.webservicecbco.checkout.ChangePassword"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:changePasswordResponse">
+      <class ref="com.sebas.webservicecbco.checkout.ChangePasswordResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:completeUser">
+      <class ref="com.sebas.webservicecbco.checkout.CompleteUser"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:completeUserResponse">
+      <class ref="com.sebas.webservicecbco.checkout.CompleteUserResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:createCertificate">
+      <class ref="com.sebas.webservicecbco.checkout.CreateCertificate"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:createCertificateResponse">
+      <class ref="com.sebas.webservicecbco.checkout.CreateCertificateResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:createCommerce">
+      <class ref="com.sebas.webservicecbco.checkout.CreateCommerce"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:createCommerceResponse">
+      <class ref="com.sebas.webservicecbco.checkout.CreateCommerceResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:createUser">
+      <class ref="com.sebas.webservicecbco.checkout.CreateUser"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:createUserResponse">
+      <class ref="com.sebas.webservicecbco.checkout.CreateUserResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:deleteCard">
+      <class ref="com.sebas.webservicecbco.checkout.DeleteCard"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:deleteCardResponse">
+      <class ref="com.sebas.webservicecbco.checkout.DeleteCardResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:deleteCertificate">
+      <class ref="com.sebas.webservicecbco.checkout.DeleteCertificate"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:deleteCertificateResponse">
+      <class ref="com.sebas.webservicecbco.checkout.DeleteCertificateResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:deleteCommerce">
+      <class ref="com.sebas.webservicecbco.checkout.DeleteCommerce"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:deleteCommerceResponse">
+      <class ref="com.sebas.webservicecbco.checkout.DeleteCommerceResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:deleteUser">
+      <class ref="com.sebas.webservicecbco.checkout.DeleteUser"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:deleteUserResponse">
+      <class ref="com.sebas.webservicecbco.checkout.DeleteUserResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:deleteUserSession">
+      <class ref="com.sebas.webservicecbco.checkout.DeleteUserSession"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:deleteUserSessionResponse">
+      <class ref="com.sebas.webservicecbco.checkout.DeleteUserSessionResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:editCertificate">
+      <class ref="com.sebas.webservicecbco.checkout.EditCertificate"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:editCertificateResponse">
+      <class ref="com.sebas.webservicecbco.checkout.EditCertificateResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:editCommerce">
+      <class ref="com.sebas.webservicecbco.checkout.EditCommerce"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:editCommerceResponse">
+      <class ref="com.sebas.webservicecbco.checkout.EditCommerceResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:findAllCertificates">
+      <class ref="com.sebas.webservicecbco.checkout.FindAllCertificates"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:findAllCertificatesResponse">
+      <class ref="com.sebas.webservicecbco.checkout.FindAllCertificatesResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:findCertificateByCodCommerce">
+      <class ref="com.sebas.webservicecbco.checkout.FindCertificateByCodCommerce"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:findCertificateByCodCommerceResponse">
+      <class ref="com.sebas.webservicecbco.checkout.FindCertificateByCodCommerceResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:getAudit">
+      <class ref="com.sebas.webservicecbco.checkout.GetAudit"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:getAuditActions">
+      <class ref="com.sebas.webservicecbco.checkout.GetAuditActions"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:getAuditActionsResponse">
+      <class ref="com.sebas.webservicecbco.checkout.GetAuditActionsResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:getAuditResponse">
+      <class ref="com.sebas.webservicecbco.checkout.GetAuditResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:getCiudadesDane">
+      <class ref="com.sebas.webservicecbco.checkout.GetCiudadesDane"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:getCiudadesDaneResponse">
+      <class ref="com.sebas.webservicecbco.checkout.GetCiudadesDaneResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:getCommerce">
+      <class ref="com.sebas.webservicecbco.checkout.GetCommerce"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:getCommerceApiToken">
+      <class ref="com.sebas.webservicecbco.checkout.GetCommerceApiToken"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:getCommerceApiTokenResponse">
+      <class ref="com.sebas.webservicecbco.checkout.GetCommerceApiTokenResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:getCommerceResponse">
+      <class ref="com.sebas.webservicecbco.checkout.GetCommerceResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:getFaqList">
+      <class ref="com.sebas.webservicecbco.checkout.GetFaqList"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:getFaqListResponse">
+      <class ref="com.sebas.webservicecbco.checkout.GetFaqListResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:getFavoriteCard">
+      <class ref="com.sebas.webservicecbco.checkout.GetFavoriteCard"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:getFavoriteCardResponse">
+      <class ref="com.sebas.webservicecbco.checkout.GetFavoriteCardResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:getFranchiseByBinRange">
+      <class ref="com.sebas.webservicecbco.checkout.GetFranchiseByBinRange"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:getFranchiseByBinRangeResponse">
+      <class ref="com.sebas.webservicecbco.checkout.GetFranchiseByBinRangeResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:getParameterByName">
+      <class ref="com.sebas.webservicecbco.checkout.GetParameterByName"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:getParameterByNameResponse">
+      <class ref="com.sebas.webservicecbco.checkout.GetParameterByNameResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:getRestoreSession">
+      <class ref="com.sebas.webservicecbco.checkout.GetRestoreSession"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:getRestoreSessionResponse">
+      <class ref="com.sebas.webservicecbco.checkout.GetRestoreSessionResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:getUser">
+      <class ref="com.sebas.webservicecbco.checkout.GetUser"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:getUserByDoc">
+      <class ref="com.sebas.webservicecbco.checkout.GetUserByDoc"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:getUserByDocResponse">
+      <class ref="com.sebas.webservicecbco.checkout.GetUserByDocResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:getUserCards">
+      <class ref="com.sebas.webservicecbco.checkout.GetUserCards"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:getUserCardsResponse">
+      <class ref="com.sebas.webservicecbco.checkout.GetUserCardsResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:getUserResponse">
+      <class ref="com.sebas.webservicecbco.checkout.GetUserResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:pay">
+      <class ref="com.sebas.webservicecbco.checkout.Pay"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:payResponse">
+      <class ref="com.sebas.webservicecbco.checkout.PayResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:postPago">
+      <class ref="com.sebas.webservicecbco.checkout.PostPago"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:postPagoResponse">
+      <class ref="com.sebas.webservicecbco.checkout.PostPagoResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:restoreLinkPassword">
+      <class ref="com.sebas.webservicecbco.checkout.RestoreLinkPassword"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:restoreLinkPasswordResponse">
+      <class ref="com.sebas.webservicecbco.checkout.RestoreLinkPasswordResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:restorePassword">
+      <class ref="com.sebas.webservicecbco.checkout.RestorePassword"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:restorePasswordResponse">
+      <class ref="com.sebas.webservicecbco.checkout.RestorePasswordResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:sendCreateEmail">
+      <class ref="com.sebas.webservicecbco.checkout.SendCreateEmail"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:sendCreateEmailResponse">
+      <class ref="com.sebas.webservicecbco.checkout.SendCreateEmailResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:sendOTPEmail">
+      <class ref="com.sebas.webservicecbco.checkout.SendOTPEmail"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:sendOTPEmailResponse">
+      <class ref="com.sebas.webservicecbco.checkout.SendOTPEmailResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:sendOTPLoginEmail">
+      <class ref="com.sebas.webservicecbco.checkout.SendOTPLoginEmail"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:sendOTPLoginEmailResponse">
+      <class ref="com.sebas.webservicecbco.checkout.SendOTPLoginEmailResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:setCard2Receive">
+      <class ref="com.sebas.webservicecbco.checkout.SetCard2Receive"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:setCard2ReceiveResponse">
+      <class ref="com.sebas.webservicecbco.checkout.SetCard2ReceiveResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:setFavoriteCard">
+      <class ref="com.sebas.webservicecbco.checkout.SetFavoriteCard"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:setFavoriteCardResponse">
+      <class ref="com.sebas.webservicecbco.checkout.SetFavoriteCardResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:setOTP">
+      <class ref="com.sebas.webservicecbco.checkout.SetOTP"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:setOTPLogin">
+      <class ref="com.sebas.webservicecbco.checkout.SetOTPLogin"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:setOTPLoginResponse">
+      <class ref="com.sebas.webservicecbco.checkout.SetOTPLoginResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:setOTPResponse">
+      <class ref="com.sebas.webservicecbco.checkout.SetOTPResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:updateCardAlias">
+      <class ref="com.sebas.webservicecbco.checkout.UpdateCardAlias"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:updateCardAliasResponse">
+      <class ref="com.sebas.webservicecbco.checkout.UpdateCardAliasResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:updateRegisterDate">
+      <class ref="com.sebas.webservicecbco.checkout.UpdateRegisterDate"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:updateRegisterDateResponse">
+      <class ref="com.sebas.webservicecbco.checkout.UpdateRegisterDateResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:updateTrx">
+      <class ref="com.sebas.webservicecbco.checkout.UpdateTrx"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:updateTrxResponse">
+      <class ref="com.sebas.webservicecbco.checkout.UpdateTrxResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:updateUserData">
+      <class ref="com.sebas.webservicecbco.checkout.UpdateUserData"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:updateUserDataResponse">
+      <class ref="com.sebas.webservicecbco.checkout.UpdateUserDataResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:validSession">
+      <class ref="com.sebas.webservicecbco.checkout.ValidSession"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:validSessionResponse">
+      <class ref="com.sebas.webservicecbco.checkout.ValidSessionResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:validateOTP">
+      <class ref="com.sebas.webservicecbco.checkout.ValidateOTP"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:validateOTPLogin">
+      <class ref="com.sebas.webservicecbco.checkout.ValidateOTPLogin"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:validateOTPLoginResponse">
+      <class ref="com.sebas.webservicecbco.checkout.ValidateOTPLoginResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:validateOTPResponse">
+      <class ref="com.sebas.webservicecbco.checkout.ValidateOTPResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:validateUser">
+      <class ref="com.sebas.webservicecbco.checkout.ValidateUser"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:validateUserResponse">
+      <class ref="com.sebas.webservicecbco.checkout.ValidateUserResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:Exception">
+      <class ref="com.sebas.webservicecbco.checkout.Exception"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:response">
+      <class ref="com.sebas.webservicecbco.checkout.Response"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:responseRestore">
+      <class ref="com.sebas.webservicecbco.checkout.ResponseRestore"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:certificates">
+      <class ref="com.sebas.webservicecbco.checkout.Certificates"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:userRequest">
+      <class ref="com.sebas.webservicecbco.checkout.UserRequest"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:audit">
+      <class ref="com.sebas.webservicecbco.checkout.Audit"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:userCard">
+      <class ref="com.sebas.webservicecbco.checkout.UserCard"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:restoreSession">
+      <class ref="com.sebas.webservicecbco.checkout.RestoreSession"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:posPago">
+      <class ref="com.sebas.webservicecbco.checkout.PosPago"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:binesRange">
+      <class ref="com.sebas.webservicecbco.checkout.BinesRange"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:faq">
+      <class ref="com.sebas.webservicecbco.checkout.Faq"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:parameter">
+      <class ref="com.sebas.webservicecbco.checkout.Parameter"/>
+    </bindings>
+  </bindings>
+</bindings>
